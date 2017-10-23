@@ -19,3 +19,17 @@
   }
 
 }
+
+#left-ear,
+#right-ear {
+  transition: .5s linear;
+  transform: translate(0px, 0px);
+}
+
+#bear:hover #left-ear {
+  transform: translate(0px, -10px);
+}
+
+#bear:hover #right-ear {
+  transform: translate(0px, -10px);
+}
