@@ -1,0 +1,21 @@
+#left-eye,
+#right-eye {
+  animation: move-eyes 3s alternate infinite;
+  transform: translate(0px, 0px);
+}
+
+@keyframes move-eyes {
+
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(9px, 0px);
+  }
+
+  100% {
+    transform: translate(-9px, 0px);
+  }
+
+}
